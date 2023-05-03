@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By Emiko Robot ✨.</b>
+Gathered By ᴘɪᴋᴀᴄʜᴏᴏ Robot ✨.</b>
 """
 
     await borg.send_message(
@@ -117,4 +117,4 @@ __help__ = """
  - `/country` Type country name and get info.
 """
 
-__mod_name__ = "🇵🇰 ᴄᴏᴜɴᴛʀʏ"
+__mod_name__ = "🇮🇳 ᴄᴏᴜɴᴛʀʏ"
