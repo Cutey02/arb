@@ -92,7 +92,7 @@ PM_START_TEXT = """
 ✪ ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 PMSTART_CHAT = (
-    "[ɢᴇᴛ ʙᴜsʏ ʟɪᴠɪɴɢ ᴏʀ ɢᴇᴛ ʙᴜsʏ ᴅʏɪɴɢ!!!](https://graph.org/file/6acf1f5bdab53fad8a31a.jpg)", )
+    "ɢᴇᴛ ʙᴜsʏ ʟɪᴠɪɴɢ ᴏʀ ɢᴇᴛ ʙᴜsʏ ᴅʏɪɴɢ..!!! ", )
 
 buttons = [
     [
