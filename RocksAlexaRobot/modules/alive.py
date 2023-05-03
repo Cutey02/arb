@@ -21,8 +21,6 @@ PHOTO = [
 SHREYXD = [
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ", url=f"https://t.me/{BOT_USERNAME}?start=help"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-    ],
     [
         InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"http://t.me/{BOT_USERNAME}?startgroup=true"),
     ],
@@ -43,9 +41,9 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await m.reply_photo(
         random.choice(PHOTO),
-        caption=f"""**ʜᴇʏ​ ɪ ᴀᴍ ᴀʟᴇxᴀ ✘ ʀᴏʙᴏᴛ​**
+        caption=f"""**ʜᴇʏ​ ɪ ᴀᴍ ᴘɪᴋᴀᴄʜᴏᴏ ✘ ʀᴏʙᴏᴛ​**
         ━━━━━━━━━━━━━━━━━━━
-        » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴀsᴀᴅ](https://t.me/{OWNER_USERNAME})
+        » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴘɪᴋᴀᴄʜᴏᴏ](https://t.me/Pikachoo_X_Bot)
         
         » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
         
