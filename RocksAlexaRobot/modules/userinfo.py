@@ -235,7 +235,7 @@ def info(update: Update, context: CallbackContext):
     rep = message.reply_text(
         "<code>Connecting To Alexa Server</code>", parse_mode=ParseMode.HTML)
 
-    text = (f"╒═══「<b> Userinfo At Alexa Server :</b> 」\n"
+    text = (f"╒═══「<b> Userinfo At ᴘɪᴋᴀᴄʜᴏᴏ ✘ ʀᴏʙᴏᴛ​ :</b> 」\n"
             f"ID: <code>{user.id}</code>\n"
             f"First Name: {html.escape(user.first_name)}")
 
@@ -412,7 +412,7 @@ def stats(update: Update, context: CallbackContext):
         [mod.__stats__() for mod in STATS]
     )
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟᴇxᴀ ʜᴇʟᴘ 」</b>"
+    result += "\n<b>╘═━「 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘɪᴋᴀᴄʜᴏᴏ ✘ ʀᴏʙᴏᴛ​ 」</b>"
     update.effective_message.reply_text(
         result, parse_mode=ParseMode.HTML, disable_web_page_preview=True
     )
