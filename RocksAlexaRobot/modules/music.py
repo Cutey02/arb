@@ -244,11 +244,11 @@ async def lyrics_func(_, message):
     await m.edit(f"**LYRICS_TOO_LONG:** [URL]({lyrics})")
 
 
-__mod_name__ = "🎵 sᴏɴɢ"
+__mod_name__ = "🎵 ᴍᴜsɪᴄ"
 
 __help__ = """
-=>> *Download audio, video and lyrics* 🤫
+=>> *ᴠᴄ ᴍᴜɪsᴄ audio, video and lyrics* 🤫
  ` /lyric: lyrics download
- ` /music: audio music download
- ` /video: video music download
+ ` /play: ᴀᴜᴅɪᴏ song ᴘʟᴀʏ ᴏɴ ᴠᴄ 
+ ` /vplay: video sᴏɴɢ ᴘʟᴀʏ ᴏɴ ᴠᴄ 
 """
